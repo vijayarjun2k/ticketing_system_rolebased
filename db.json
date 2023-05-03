@@ -1,0 +1,64 @@
+{
+  "user": [
+    {
+      "id": "muthu",
+      "name": "muthu",
+      "password": "muthu123",
+      "email": "muthu@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "admin#123",
+      "repassword": "admin#123",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true,
+      "comment": ""
+    },
+    {
+      "id": "seetha",
+      "name": "seetha",
+      "password": "seetha123",
+      "email": "seetha@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "ganesh",
+      "name": "ganesh",
+      "password": "ganesh123",
+      "repassword": "ganesh123",
+      "email": "ganesh@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false,
+      "comment": ""
+    }
+  ],
+  "ticket": [
+    {
+      "name": "muthu",
+      "subject": "Install Postman",
+      "select": "General Enquiry",
+      "brief": "Install postman in my machine",
+      "file": "C:\\fakepath\\aadharcard.pdf",
+      "comment": "",
+      "id": 1
+    },
+    {
+      "name": "seetha",
+      "subject": "os reboot problem",
+      "select": "Major issue",
+      "brief": "Operating system fails to boot",
+      "file": "C:\\fakepath\\aadharcard.pdf",
+      "comment": "",
+      "id": 2
+    }
+  ]
+}

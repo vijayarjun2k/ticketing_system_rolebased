@@ -1,0 +1,50 @@
+<mat-card>
+    <mat-card-header>
+        <h2>Create New Ticket</h2>
+    </mat-card-header>
+    <mat-card-content>
+        <form class="example-form" [formGroup]="ticketform" (ngSubmit)="raiseticket()">
+          <mat-form-field class="example-full-width" appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name" >
+          </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Subject</mat-label>
+                <input matInput formControlName="subject" >
+              </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>What do you want?</mat-label>
+            <mat-select formControlName="select">
+              <mat-option value="General Enquiry">General Enquiry</mat-option>
+              <mat-option value="Minor issue">Minor issue</mat-option>
+              <mat-option value="Major issue">Major issue</mat-option>
+            </mat-select>
+          </mat-form-field>
+            
+              <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Breif your issue</mat-label>
+                <input matInput type="text" formControlName="brief" style="height: 100px;">
+              </mat-form-field>
+
+              <!-- <mat-form-field appearance="fill">
+                <mat-label>Created On</mat-label>
+                <input matInput [matDatepicker]="dp" formControlName="date">
+                <mat-hint>MMMM DD, YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="dp"></mat-datepicker-toggle>
+                <mat-datepicker #dp></mat-datepicker>
+              </mat-form-field> -->
+
+              <div>
+                Attachments:<input type="file" formControlName="file" placeholder="Choose file" style="margin-bottom: 50px;">
+            </div>
+              
+            
+              <div>
+                <button type="submit" mat-raised-button style="background-color: rgb(16, 135, 16); color: white; width: 200px; height: 50px;"><mat-icon>save</mat-icon>Submit ticket</button>&nbsp;&nbsp;
+                <button type="button" class="btn btn-danger" style="width: 200px; height: 50px;" data-dismiss="modal">Close</button>
+                <!-- <button class="closebtn" mat-raised-button color="warn">Close</button> -->
+                <!-- <a routerLink="/register" mat-raised-button color="accent">New User?</a> -->
+              </div>
+          </form>
+    </mat-card-content>
+  </mat-card>

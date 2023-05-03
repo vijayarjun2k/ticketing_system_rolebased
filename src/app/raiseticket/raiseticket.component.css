@@ -1,0 +1,29 @@
+.example-form{
+    max-width: 50px;
+    margin-left: 300px;
+}
+mat-card-content{
+    text-align: center;
+}
+.example-full-width{
+    max-width: 900px;
+    margin: auto;
+    width: 350px;
+    
+}
+h2{
+    text-align: center;
+    margin-left: 350px;
+}
+mat-card{
+    max-width: 800px;
+    /* margin-left: 300px; */
+    text-align: center;
+    
+}
+.closebtn{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    top: 200px;
+}

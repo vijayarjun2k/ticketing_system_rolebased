@@ -1,0 +1,45 @@
+.orderticket{  
+    top:100px; 
+    margin-left:500px;
+
+}
+.raiseticket{
+    top:100px;
+    margin-right:500px;
+}
+table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    top: -100px;
+}  
+.viewticket{
+  top: 150px;
+  margin-left: 1200px;
+}
+.ticket{
+  margin-top: 50px;
+  width: 550px;
+}
+.open{
+  margin-top: -125px;
+  margin-left: 370px;
+  width: 550px;  
+}
+.close{
+  margin-top: -130px;
+  margin-left: 700px;
+  width: 550px;
+  
+  
+}
+.username{
+  margin-top: 180px;
+}

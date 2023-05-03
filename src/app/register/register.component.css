@@ -1,0 +1,30 @@
+.newuser{
+    margin-left: 500px;
+}
+.example-form{
+    max-width: 200px;
+    margin-left: 250px;
+    
+
+}
+.example-full-width{
+    max-width: 800px;
+    margin: auto;
+    width: 350px;
+   
+}
+h2{
+    text-align: center;
+    margin-left: 250px;
+}
+mat-card{
+    max-width: 800px;
+    margin-left: 300px;
+    margin-top: 50px;
+    
+}
+div{
+    display: flex;
+    column-gap: 20px;
+    width: 500px;
+}
